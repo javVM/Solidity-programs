@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.7.0 <0.8.0;
-contract PiggyMapping {
+contract PiggyMapping2 {
     struct clientData {
         string name;
         uint value;
     }
     
     mapping(address=>clientData) clients;
+    address[] adrr;
     
     function findClient() internal view returns (bool) {
         if(bytes(clients[msg.sender].name).length > 0) return true;
@@ -20,6 +21,7 @@ contract PiggyMapping {
         }
         else{
             clients[msg.sender] = clientData(name, msg.value);
+            adrr.push(msg.sender);
         }
       
     }
@@ -51,5 +53,16 @@ contract PiggyMapping {
         else{
             return clients[msg.sender].value;
         }
+    }
+    
+    function checkBalances()external view returns (bool) {
+        uint value = 0;
+        for(uint i = 0; i < adrr.length; i++) {
+            value = value + clients[adrr[i]].value;
+        }
+        
+        if(value == address(this).balance) return true;
+        else return false;
+    
     }
 }
