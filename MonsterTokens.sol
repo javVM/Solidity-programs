@@ -2,6 +2,7 @@
 //Javier Verde Marin
 pragma solidity >=0.7.0 <0.8.0;
 
+//Simplified version based on openzeppelin's ERC721
 import "./ERC721simplified.sol";
 
 library ArrayUtils {
