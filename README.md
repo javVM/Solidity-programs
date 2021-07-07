@@ -14,4 +14,8 @@ Several Solidity files
     <td> Dhondt (simplified) election </td>
     <td><a href=https://github.com/javVM/Solidity-programs/blob/main/DhondtElections.sol>Link</a></td>
   </tr>
+    <tr>
+    <td> Monster Tokens </td>
+    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/DhondtElections.sol>Link</a></td>
+  </tr>
 </table>
