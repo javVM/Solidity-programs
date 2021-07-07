@@ -12,6 +12,6 @@ Several Solidity files
   </tr>
   <tr>
     <td> Dhondt (simplified) election </td>
-    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/PiggyMapping.sol>Link</a></td>
+    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/DhondtElections.sol>Link</a></td>
   </tr>
 </table>
