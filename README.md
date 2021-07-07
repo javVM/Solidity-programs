@@ -16,6 +16,6 @@ Several Solidity files
   </tr>
     <tr>
     <td> Monster Tokens </td>
-    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/DhondtElections.sol>Link</a></td>
+    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/MonsterTokens.sol>Link</a></td>
   </tr>
 </table>
