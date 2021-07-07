@@ -9,5 +9,7 @@ Several Solidity files
   <tr>
     <td>Piggybank using mapping</td>
     <td><a href=https://github.com/javVM/Solidity-programs/blob/main/PiggyMapping.sol>Link</a></td>
+    <td> Dhondt (simplified) election </td>
+    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/PiggyMapping.sol>Link</a></td>
   </tr>
 </table>
