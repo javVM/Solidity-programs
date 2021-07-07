@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
+//Javier Verde Marin
 pragma solidity >=0.7.0 <0.8.0;
 contract DhondtElectionRegion {
     mapping(uint => uint)private weights;
