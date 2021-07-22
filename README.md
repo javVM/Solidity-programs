@@ -18,4 +18,11 @@ Several Solidity files
     <td> Monster Tokens </td>
     <td><a href=https://github.com/javVM/Solidity-programs/blob/main/MonsterTokens.sol>Link</a></td>
   </tr>
+   </tr>
+    <tr>
+    <td> Proposal Voting System
+      (token based)
+    </td>
+    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/ProposalVotingSystem.sol>Link</a></td>
+  </tr>
 </table>
