@@ -39,9 +39,15 @@ contract Raffle {
     //People cannot be added if the raffle is going on (it is going to act as a lock)
     bool private raffleActive = false;
     
-    //Check if the user executing the funtion is the admin
+    //Check if the user executing the function is the admin
     modifier onlyAdministrator() {
      require(msg.sender == administrator, "You are not the admin");
+      _;
+    }
+    
+     //Check that the user executing the function is not the admin
+    modifier onlyParticipant() {
+     require(msg.sender != administrator, "The admin cannot participate in the raffle");
       _;
     }
     
@@ -84,7 +90,7 @@ contract Raffle {
     }
     
     //People can only participate if the raffle is open, the participant isn't already in and the raffle is not going on
-    function Participate() external payable isRaffleOpen newParticipant correctPrice{
+    function Participate() external payable onlyParticipant isRaffleOpen newParticipant correctPrice{
         require(!raffleActive, "You cannot join while the raffle is already going on!");
         participants.push(msg.sender);
     }
