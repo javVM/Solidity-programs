@@ -27,6 +27,6 @@ Several Solidity files
   </tr>
    <tr>
     <td>Pseudorandom Raffle</td>
-    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/PiggyMapping.sol>Link</a></td>
+    <td><a href=https://github.com/javVM/Solidity-programs/blob/main/raffle.sol>Link</a></td>
   </tr>
 </table>
